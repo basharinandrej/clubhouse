@@ -11,7 +11,6 @@ import {DefaultRootState} from "../redux/storeTypes";
 import {wrapper} from '../redux/store';
 
 export default function RoomsPage() {
-
   //@ts-ignore
   const {rooms} = useSelector((state: DefaultRootState) => state.roomsReducer)
 
